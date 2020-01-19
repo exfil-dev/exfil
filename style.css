@@ -1,0 +1,138 @@
+body {
+    background-color: black;
+    font-family: Palanquin, sans-serif;
+    background-image: url("src/imgs/grunge.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.exfil-logo {
+    max-width: 100px;
+}
+
+ul li a.nav-link {
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+ul li a.nav-link:hover {
+    color: black;
+    background-color: #589959;
+}
+
+.navbar-collapse {
+    background-color: black;
+}
+
+.carousel .carousel-item img {
+    height: 945px;
+}
+
+.hidden-logo {
+    margin-top: 300px;
+}
+
+#respectables {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.about-us {
+    margin: 100px 0;
+    padding-top: 200px;
+}
+
+.join-us {
+    margin: 100px 0;
+    padding-top: 125px;
+}
+
+.screenshots {
+    margin: 100px 0;
+    padding-top: 100px;
+}
+
+@media (max-width: 768px) {
+    #respectables {
+        font-size: 1.5rem;
+    }
+}
+
+.column-header {
+    border-top: 2px;
+    border-right: 2px;
+    border-left: 2px;
+    border-bottom: 0;
+    border-color: #589959;
+    border-style: solid;
+    background-color: #589959;
+    height: 50px;
+    padding-top: 9px;
+    text-shadow: 2px 5px 10px black;
+}
+
+.column-text {
+    border-bottom: 2px;
+    border-right: 2px;
+    border-left: 2px;
+    border-top: 0;
+    border-color: #589959;
+    border-style: solid;
+    height: 200px;
+}
+
+.dont-die {
+    height: 200px;
+}
+
+#discord {
+    max-width: 350px;
+}
+
+#discord-join {
+    background-color: #7289DA;
+    color: white;
+}
+
+#footer {
+    background-color: black;
+}
+
+.footer p {
+    padding-top: 10px;
+    line-height: normal;
+}
+
+.footer a {
+    color: #589959;
+}
+
+.footer a:visited {
+    color: #a1a1a1;
+}
+
+#screenshot {
+    border: 2px solid #589959;
+}
+
+#screenshot:hover {
+    border: 2px solid white;
+}
+
+hr {
+    background-color: #589959;
+    width: 80%;
+    margin-top: 150px;
+}
