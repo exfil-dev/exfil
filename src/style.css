@@ -1,7 +1,7 @@
 body {
     background-color: black;
     font-family: Palanquin, sans-serif;
-    background-image: url("src/imgs/grunge.png");
+    background-image: url("imgs/grunge.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
